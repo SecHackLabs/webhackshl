@@ -10,7 +10,7 @@ Abran la Terminal:</br>
 
 luego:</br>
 
-~$ git clone https://github.com/SecHackLabs/webhackshl.git && cd webhackshl && python webhackshl.py</br>
+~$ git clone https://gitlab.com/sechacklabs/webhackshl.git && cd webhackshl && python webhackshl.py</br>
 
 Ver todas las opciones de la herramienta:</br>
 
@@ -23,7 +23,7 @@ Abran la Terminal:</br>
 
 luego:</br>
 
-~$ git clone https://github.com/SecHackLabs/webhackshl.git && cd webhackshl && python3 webhackshl.py</br>
+~$ git clone https://gitlab.com/sechacklabs/webhackshl.git && cd webhackshl && python3 webhackshl.py</br>
 
 Ver todas las opciones de la herramienta:</br>
 
