@@ -6,5 +6,4 @@ modules/vulns/xss.txt
 modules/sqlopt/output.txt
 modules/logs/
 Gemfile.lock
-Gemfile
 *.log
