@@ -84,7 +84,7 @@ def updatetools(DISTRO):
         cAmarillo("Actualizando tu lista de paquetes ...")
         os.system("sudo apt update")
         cAmarillo("actualizando Herramientas del sistema...")
-        correctinstall=os.system("sudo apt install nmap fierce sqlmap dnsenum nikto whatweb wpscan ruby ruby-dev git curl tor gzip john python  python-requests  python-yaml  python-flask libc6-dev zlib1g-dev zlib1g && cd modules/tplmap/ && git pull && cd joomlavs/ && git pull")
+        correctinstall=os.system("sudo apt install nmap fierce sqlmap dnsenum nikto whatweb wpscan ruby ruby-dev git curl tor gzip john python  python-requests  python-yaml  python-flask libc6-dev zlib1g-dev zlib1g && cd modules/tplmap/ && git pull && cd ../../joomlavs/ && git pull")
         if correctinstall==0:
             print ("")
             cVerde("La actualizacion se realizo correctamente.")
@@ -98,7 +98,7 @@ def updatetools(DISTRO):
         cAmarillo("Actualizando tu lista de paquetes ...")
         os.system("sudo pacman -Sy")
         cAmarillo("Actualizando Herramientas del sistema...")
-        correctinstall=os.system("sudo pacman --needed --asdeps -S nmap fierce sqlmap dnsenum nikto whatweb wpscan ruby git curl tor gzip john python2  python2-requests  python2-yaml  python2-flask && cd modules/tplmap/ && git pull && cd joomlavs/ && git pull")
+        correctinstall=os.system("sudo pacman --needed --asdeps -S nmap fierce sqlmap dnsenum nikto whatweb wpscan ruby git curl tor gzip john python2  python2-requests  python2-yaml  python2-flask && cd modules/tplmap/ && git pull && cd ../../joomlavs && git pull")
         if correctinstall==0:
             print ("")
             cVerde("La actualizacion se realizo correctamente.")
