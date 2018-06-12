@@ -34,7 +34,7 @@ def distribucion():
         print ("Usted está usando una distribución basada en Debian!\n")
         DISTRO="kalideb"
     elif os.path.isfile("/etc/arch-release") or os.path.isfile("/etc/pacman.conf"):
-        print ("Usted está usando ArchLinux!\n")
+        print ("Usted está usando una distribución basada en ArchLinux!'\n")
         DISTRO="ArchLinux"
     else:
         print ("Distribución Linux desconocida.")
