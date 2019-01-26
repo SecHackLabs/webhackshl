@@ -10,7 +10,7 @@ function webhackinstall() {
 			echo -e "Procediendo con la instalación en tu sistema Debian o basado en Debian."
 			mkdir /opt/webhackshl/
 			cp -R * /opt/webhackshl/
-			echo -e "\n#!/usr/bin/bash\npython /opt/webhackshl/webhackshl" | sudo tee -a /usr/bin/webhackshl > /dev/null
+			echo -e "\n#!/usr/bin/bash\npython3 /opt/webhackshl/webhackshl" | sudo tee -a /usr/bin/webhackshl > /dev/null
 			chmod +x /usr/bin/webhackshl
 			echo -e "Instalación finalizada, ahora puedes ejecutar el comando "webhackshl" directamente desde tu terminal.\n"
 		fi
@@ -22,7 +22,7 @@ function webhackinstall() {
 			echo -e "Procediendo con la instalación en tu sistema ArchLinux o basado en ArchLinux."
             mkdir /opt/webhackshl/
             cp -R * /opt/webhackshl/
-			echo -e "\n#!/usr/bin/bash\npython /opt/webhackshl/webhackshl.py" | sudo tee -a /usr/bin/webhackshl > /dev/null
+			echo -e "\n#!/usr/bin/bash\npython /opt/webhackshl/webhackshl" | sudo tee -a /usr/bin/webhackshl > /dev/null
 			chmod +x /usr/bin/webhackshl
 			echo -e "Instalación finalizada, ahora puedes ejecutar el comando "webhackshl" directamente desde tu terminal.\n"
 		fi
