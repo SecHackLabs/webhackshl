@@ -10,11 +10,11 @@ Abran la Terminal:</br>
 
 luego:</br>
 
-~$ git clone https://gitlab.com/sechacklabs/webhackshl.git && cd webhackshl && python webhackshl.py</br>
+~$ git clone https://gitlab.com/sechacklabs/webhackshl.git && cd webhackshl && python webhackshl</br>
 
 Ver todas las opciones de la herramienta:</br>
 
-~$ python webhackshl.py -h</br>
+~$ python webhackshl -h</br>
 
 # Usar la herramienta en Debian.
 Abran la Terminal:</br>
@@ -23,11 +23,11 @@ Abran la Terminal:</br>
 
 luego:</br>
 
-~$ git clone https://gitlab.com/sechacklabs/webhackshl.git && cd webhackshl && python3 webhackshl.py</br>
+~$ git clone https://gitlab.com/sechacklabs/webhackshl.git && cd webhackshl && python3 webhackshl</br>
 
 Ver todas las opciones de la herramienta:</br>
 
-~$ python3 webhackshl.py -h
+~$ python3 webhackshl -h
 
 # Instalación y desinstalación.
 
@@ -41,9 +41,9 @@ Abre el directorio de descarga desde la terminal y ejecuta el siguiente comando:
 
 Si usted ha descargado e instalado la herramienta en su equipo usando el script <em>install.sh</em> y desea actualizarla a la versión más reciente deberá realizar lo siguiente:</br>
 
-1. Abrir la carpeta donde ha descargado la herramienta y ejecutar <code>python webhackshl.py -u</code>. Una vez terminado el proceso deberás ejecutar el script <em>update.sh</em>. Lo cual da cómo resultado:</br>
+1. Abrir la carpeta donde ha descargado la herramienta y ejecutar <code>python webhackshl -u</code>. Una vez terminado el proceso deberás ejecutar el script <em>update.sh</em>. Lo cual da cómo resultado:</br>
 
-~$ python webhackshl.py -u && sudo update.sh</br>
+~$ python webhackshl -u && sudo update.sh</br>
 
 # Soporte y contacto.
 
