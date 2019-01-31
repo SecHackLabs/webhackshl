@@ -220,10 +220,10 @@ def check():
 def checklogs():
     toolsdirs=['whatweb', 'nikto', 'nmap-full', 'nmap-rapido', 'nmap-servhost', 'nmap-serviciosver', 'nmap-puertorango', 'nmap-so-host', 'dnsenum', 'bypass']
     for dtool in toolsdirs:
-        if os.path.isdir(os.getcwd()+"/modules/logs/"+dtool):
+        if os.path.isdir("./modules/logs/"+dtool):
             pass
         else:
-            os.makedirs(os.getcwd()+"/modules/logs/"+dtool)
+            os.makedirs("./modules/logs/"+dtool)
             pass
 
 def dtor():
