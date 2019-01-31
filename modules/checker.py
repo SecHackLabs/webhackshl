@@ -217,6 +217,15 @@ def check():
             else:
                 installall(DISTRO)
 
+def checklogs():
+    toolsdirs=['whatweb', 'nikto', 'nmap-full', 'nmap-rapido', 'nmap-servhost', 'nmap-serviciosver', 'nmap-puertorango', 'nmap-so-host', 'dnsenum', 'bypass']
+    for dtool in toolsdirs:
+        if os.path.isdir(os.getcwd()+"/modules/logs/"+dtool):
+            pass
+        else:
+            os.makedirs(os.getcwd()+"/modules/logs/"+dtool)
+            pass
+
 def dtor():
     cVerde("Verificando que el servicio TOR esté activo...")
     tor=os.system("systemctl status tor | grep -qw active")
