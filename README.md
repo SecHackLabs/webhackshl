@@ -52,8 +52,8 @@ Blog: https://securityhacklabs.net</br>
 Foro: https://foro.securityhacklabs.net/</br>
 
 # Capturas de pantalla.
--![Alt text](https://gitlab.com/sechacklabs/webhackshl/raw/master/screenshots/webhackshl-main.png "Main Screen")          
--![Alt text](https://gitlab.com/sechacklabs/webhackshl/raw/master/screenshots/webhackshl-dorksearch.png "Dork Script")  
--![Alt text](https://gitlab.com/sechacklabs/webhackshl/raw/master/screenshots/webhackshl-dns.png "DNS Search") 
--![Alt text](https://gitlab.com/sechacklabs/webhackshl/raw/master/screenshots/webhackshl-adminfind.png "Admin Finder Script") 
+-![Alt text](https://github.com/sechacklabs/webhackshl/raw/master/screenshots/webhackshl-main.png "Main Screen")          
+-![Alt text](https://github.com/sechacklabs/webhackshl/raw/master/screenshots/webhackshl-dorksearch.png "Dork Script")  
+-![Alt text](https://github.com/sechacklabs/webhackshl/raw/master/screenshots/webhackshl-dns.png "DNS Search") 
+-![Alt text](https://github.com/sechacklabs/webhackshl/raw/master/screenshots/webhackshl-adminfind.png "Admin Finder Script") 
 
