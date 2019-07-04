@@ -10,7 +10,7 @@ Abran la Terminal:</br>
 
 luego:</br>
 
-~$ git clone https://gitlab.com/sechacklabs/webhackshl.git && cd webhackshl && python webhackshl</br>
+~$ git clone https://github.com/sechacklabs/webhackshl.git && cd webhackshl && python webhackshl</br>
 
 Ver todas las opciones de la herramienta:</br>
 
@@ -23,7 +23,7 @@ Abran la Terminal:</br>
 
 luego:</br>
 
-~$ git clone https://gitlab.com/sechacklabs/webhackshl.git && cd webhackshl && python3 webhackshl</br>
+~$ git clone https://github.com/sechacklabs/webhackshl.git && cd webhackshl && python3 webhackshl</br>
 
 Ver todas las opciones de la herramienta:</br>
 
@@ -47,9 +47,7 @@ Si usted ha descargado e instalado la herramienta en su equipo usando el script 
 
 # Soporte y contacto.
 
-Telegram: https://telegram.me/SecHackLabs</br>
-Sala Riot: https://chat.securityhacklabs.net/#/room/#sechacklabs:disroot.org</br>
-IRC: https://webchat.freenode.net/?channels=SecHackLabs</br>
+Chat: https://chat.securityhacklabs.net/
 Blog: https://securityhacklabs.net</br>
 Foro: https://foro.securityhacklabs.net/</br>
 
